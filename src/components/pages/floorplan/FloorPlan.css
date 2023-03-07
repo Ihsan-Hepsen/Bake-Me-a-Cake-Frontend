@@ -1,0 +1,31 @@
+div > .outerContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.outerContainer > .mdContainer {
+    margin: 0;
+    padding: 0;
+    border: 3px solid #000;
+    height: 35vh;
+}
+
+.mdContainer > .roomContainer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+.roomContainer > .room {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000;
+    height: 16.125vh;
+    width: 100%;
+}
